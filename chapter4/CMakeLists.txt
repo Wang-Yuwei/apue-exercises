@@ -1,3 +1,7 @@
 add_executable(4.1.stat-vs-lstat 4.1.stat-vs-lstat.c)
 add_executable(4.6.create-filehole 4.6.create-filehole.c)
 add_executable(4.6.copy-file 4.6.copy-file.c)
+add_executable(4.11.old-myftw 4.11.old-myftw.c)
+add_executable(4.11.new-myftw 4.11.new-myftw.c)
+add_executable(4.16.deep-directory 4.16.deep-directory.c)
+add_executable(4.17.dev-fd 4.17.dev-fd.c)
