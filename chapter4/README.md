@@ -1,4 +1,4 @@
-* Exercises for chapter 4
+# Exercises for chapter 4
 1. See the program.
 2. The access mode of every file created by the process would be set to 0000. It can not be accessed by any one until its access mode is changed.
 3. We can use *chmod* to verify it.

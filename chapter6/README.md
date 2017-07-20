@@ -1,4 +1,4 @@
-* System Data Files and Information
+# System Data Files and Information
 1. It cannot be obtained.
 2. We can visit */etc/shadow* with superuser rights.
 3. See the program.

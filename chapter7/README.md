@@ -1,4 +1,4 @@
-* Process Environment
+# Process Environment
 1. I cannot get the exit code of 13. I guess that the compiler will add a *return 0* for me. I compare the executable file with or without *return 0*. They have no difference.
 2. After *main* return to the *_start* procedure (gcc, Linux).
 3. On Linux, the arguments can be read through */proc/self/cmdline*. Moreover, assembly language can be used to trace the stack manually.

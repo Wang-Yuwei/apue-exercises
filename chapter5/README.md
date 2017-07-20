@@ -1,4 +1,4 @@
-* Chapter 5. Standard I/O library
+# Chapter 5. Standard I/O library
 1. I write the program according to the man page on Ubuntu 17.04.
 2. The line will be printed to output through multiple function call, but the result is correct.
 3. It means we are printing an empty string.
