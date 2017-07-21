@@ -1,0 +1,5 @@
+add_executable(10.2.sig2str 10.2.sig2str.c)
+add_executable(10.6.sychronization 10.6.synchronization.c)
+add_executable(10.9.sigprocmask 10.9.sigprocmask.c)
+add_executable(10.11.intr_write 10.11.intr_write.c)
+add_executable(10.12.largebuffer 10.12.largebuffer.c)
