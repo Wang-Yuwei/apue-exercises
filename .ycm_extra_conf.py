@@ -44,14 +44,13 @@ flags = [
     '-DNDEBUG',
     # You 100% do NOT need -DUSE_CLANG_COMPLETER in your flags; only the YCM
     # source code needs it.
-    '-DUSE_CLANG_COMPLETER',
     # THIS IS IMPORTANT! Without a "-std=<something>" flag, clang won't know which
     # language to use when compiling headers. So it will guess. Badly. So C++
     # headers will be compiled as C headers. You don't want that so ALWAYS specify
     # a "-std=<something>".
     # For a C project, you would set this to something like 'c99' instead of
     # 'c++11'.
-    '-std=c11',
+    '-std=gnu11',
     # ...and the same thing goes for the magic -x option which specifies the
     # language that the files to be compiled are written in. This is mostly
     # relevant for c++ headers.
@@ -66,6 +65,8 @@ flags = [
     '/usr/include',
     '-isystem',
     '/usr/local/include/',
+    '-isystem',
+    '/usr/include/x86_64-linux-gnu'
 ]
 
 # Set this to the absolute path to the folder (NOT the file!) containing the
